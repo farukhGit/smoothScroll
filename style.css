@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+}
+
+body{
+
+    padding: 20px 0px;
+    background: cornflowerblue;
+}
+
+nav{
+
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+
+nav a{
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: .4s linear;
+    margin: 0px 25px;
+}
+
+nav a:hover{
+
+    transform: scale(1.2);
+}
+
+h1{
+    font-size: 5rem;
+    color: white;   
+    position: relative;
+    top: 40%;
+    letter-spacing: 3px;
+}
+
+#div-1{
+
+    height: 100vh;
+    background: linear-gradient(rgb(48, 145, 112), rgb(28, 28, 223));
+}
+
+#div-2{
+
+    height: 100vh;
+    background: linear-gradient(rgb(218, 98, 43), rgb(21, 119, 62));
+}
+#div-3{
+
+    height: 100vh;
+    background: linear-gradient(rgb(48, 145, 48), rgb(191, 28, 223));
+}
