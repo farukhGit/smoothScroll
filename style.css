@@ -6,7 +6,7 @@
 
 body{
 
-    padding: 20px 0px 0px;
+    padding: 0px;
     background: cornflowerblue;
 }
 
@@ -16,6 +16,7 @@ nav{
     display: flex;
     justify-content: space-around;
     padding: 0px 20px;
+    margin-top: 20px;
 }
 
 nav a{
@@ -49,6 +50,18 @@ nav a:hover{
     color: white;
     font-size: 1.3rem;
     font-weight: lighter;
+}
+
+#scroll-progress-bar{
+
+    height: 10px;
+    width: 100%;
+    background-color: grey;
+    margin-bottom: 10px;
+    position: fixed;
+    top: 0%;
+    border-left-style: solid; 
+    border-left-color: red;
 }
 
 h1{

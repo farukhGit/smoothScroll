@@ -1,7 +1,10 @@
 let divBtn = document.querySelectorAll('nav a')
 let currentPosition 
 let total = document.getElementById('div-3').getBoundingClientRect().top
+let scrollPercentage = document.getElementById('scroll-percentage-display')
+let scrollProgressBar = document.getElementById('scroll-progress-bar')
 
+scrollPercentage.innerText = '0%'
 
 
 let targetPosition = divBtn.forEach(element => {
@@ -26,6 +29,7 @@ document.addEventListener('scroll', ()=>{
 
     scrollPercentage = parseInt(window.pageYOffset / total * 100)
     document.getElementById('scroll-percentage-display').innerText = scrollPercentage + '%'
-     
+    
+    scrollProgressBar.style.borderLeftWidth = scrollPercentage * window.innerWidth / 100 + 'px'
 })
 
