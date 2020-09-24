@@ -6,7 +6,7 @@
 
 body{
 
-    padding: 20px 0px;
+    padding: 20px 0px 0px;
     background: cornflowerblue;
 }
 
@@ -30,6 +30,25 @@ nav a{
 nav a:hover{
 
     transform: scale(1.2);
+}
+
+#scroll-percentage-display{
+
+    width: 80px;
+    height: 40px;
+    background: dimgray;
+    border-left: 0px solid red;
+    position: fixed;
+    right: 3%;
+    top: 2%;
+    border-radius: 15px;
+    background: #ccc;
+    box-shadow: floralwhite 0 0 3px 2px;
+    opacity: .7;
+    padding: 10px;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: lighter;
 }
 
 h1{
